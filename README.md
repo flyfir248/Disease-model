@@ -15,3 +15,6 @@ Define the route for the results page using the @app.route() decorator. The resu
 Run the app using app.run() and set the debug flag to True for debugging.
 
 Note that the web app consists of two templates (index.html and results.html) located in the templates directory and a static file (plot.png) located in the static directory.
+
+
+![image](https://user-images.githubusercontent.com/57437701/222965327-303e9980-34de-45a6-b250-a80a85edc428.png)
