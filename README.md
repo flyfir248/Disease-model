@@ -18,3 +18,7 @@ Note that the web app consists of two templates (index.html and results.html) lo
 
 
 ![image](https://user-images.githubusercontent.com/57437701/222965327-303e9980-34de-45a6-b250-a80a85edc428.png)
+
+
+![image](https://user-images.githubusercontent.com/57437701/222969063-34e9148e-4342-4574-9f3c-91e8ba18e470.png)
+
