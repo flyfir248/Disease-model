@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Model</title>
+  </head>
+  <body>
+    <h1>Model Parameters</h1>
+    <form method="POST" action="/">
+      <label>rC:</label>
+      <input type="text" name="rC" value="{{ rC }}">
+      <br><br>
+      <label>dC:</label>
+      <input type="text" name="dC" value="{{ dC }}">
+      <br><br>
+      <label>rH:</label>
+      <input type="text" name="rH" value="{{ rH }}">
+      <br><br>
+      <label>kIL:</label>
+      <input type="text" name="kIL" value="{{ kIL }}">
+      <br><br>
+      <label>kCT:</label>
+      <input type="text" name="kCT" value="{{ kCT }}">
+      <br><br>
+      <label>s:</label>
+      <input type="text" name="s" value="{{ s }}">
+      <br><br>
+      <label>K:</label>
+      <input type="text" name="K" value="{{ K }}">
+      <br><br>
+      <input type="submit" value="Submit">
+    </form>
+    <br><br>
+    <img src="{{ url_for('static', filename='plot.png') }}">
+    <br><br>
+    <a href="/results">See Results</a>
+  </body>
+</html>

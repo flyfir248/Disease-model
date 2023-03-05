@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tumour Microenvironment Simulation Results</title>
+</head>
+<body>
+    <h1>Tumour Microenvironment Simulation Results</h1>
+
+    <p>Simulated using the following parameters:</p>
+    <ul>
+        <li>CTL Initial: {{ ctl_initial }}</li>
+        <li>Th Initial: {{ th_initial }}</li>
+        <li>IL-2 Initial: {{ il2_initial }}</li>
+        <li>Tumour Initial: {{ tumour_initial }}</li>
+        <li>ISF Initial: {{ isf_initial }}</li>
+        <li>Simulation Time: {{ t }}</li>
+        <li>Time Step: {{ step }}</li>
+    </ul>
+
+    <img src="{{ url_for('static', filename='plot.png') }}" alt="Simulation Results">
+</body>
+</html>
